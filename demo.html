@@ -29,11 +29,18 @@
 </head>
 
 <body>
-
-<chart-js id="chartJs"></chart-js>
-<script type="text/javascript">
-  var chartJs = document.getElementById("chartJs");
-  chartJs.enteredView();
-</script>
+<just-demo></just-demo>
+<polymer-element name="just-demo">
+  <template>  
+    <chart-js id="chartJs"></chart-js>
+  </template>
+  <script>
+    Polymer({
+      ready:function(){
+        this.$.chartJs.enteredView();
+      }
+    })
+  </script>
+</polymer-element>
 </body>
 </html>
