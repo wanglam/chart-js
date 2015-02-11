@@ -2,6 +2,6 @@
   "name": "chart-js",
   "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#master"
+    "Chart.js": "https://github.com/nnnick/Chart.js.git#~1.0.1"
   }
 }
